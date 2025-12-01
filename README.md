@@ -1,6 +1,3 @@
-# Youtube Tutorial
-https://www.youtube.com/watch?v=U06V3UuENXA
-
 # To Get a List of Playbook Tasks
 ``` shell
 ansible-playbook -i inventories/hosts -K playbook1.yml --list-tasks
@@ -15,3 +12,4 @@ ansible-playbook -i inventories/hosts -K playbook1.yml
 ```shell
 ansible-playbook -i inventories/hosts -K playbook1.yml -t minikube
 ```
+
